@@ -1,0 +1,114 @@
+#intro{
+    background: rgb(0,0,255);
+background: linear-gradient(0deg, rgba(0,0,255,1) 0%, rgb(0, 255, 255) 100%);
+    border: blue ridge 12px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#img{
+    border-radius: 25px;
+    width: 200px;
+}
+
+body{
+    background-color: deepskyblue;
+    color: white;
+    font-family: cursive;
+}
+
+h1{
+    text-shadow: rgb(0, 0, 0) 4px 4px;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left; 
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li:hover {
+    background-color: blue;
+  }
+
+p{
+    padding: 10px;
+    text-align: justify;
+    margin: 2px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    text-align: center;
+}
+
+iframe{
+    width:90%;
+    height: 1000px;
+    margin: 0 auto;
+    display: block;
+    border-style:none;
+}
+
+h4{
+    text-align: center;
+}
+
+.a-tag:hover{
+    color: rgb(255, 255, 0);
+}
+
+.a-tag{
+color: blue;
+}
+
+.link{
+    color: white;
+}
+
+.menu{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background-color: deepskyblue;
+}
+
+ #a_image{
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+
+#img_1{
+    width: 400px;
+    height: 400px;
+    scale: 80%;
+    border-radius: 25px;
+    border: 15px ridge blue;
+
+}
+
+#img_1:hover{
+    transform: scale(0.95);
+}
+
+#author{
+    background: linear-gradient(0deg, rgba(0,0,255,1) 0%, deepskyblue 100%);
+}
